@@ -1,0 +1,49 @@
+
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: #1F2937;
+}
+
+.container1 {
+    background-color: #1F2937;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    padding: 8px;
+    margin-bottom: 3rem;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: 16px;
+}
+
+.text-image {
+    display: flex;
+    justify-content: space-around;
+    color: white;
+}
+
+.content-text {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    margin-left: 135px;
+
+}
+
+.content-image {
+    margin-right: 135px;
+}
