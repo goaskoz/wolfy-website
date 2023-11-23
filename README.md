@@ -1,3 +1,4 @@
 # wolfy-website
 
-This site is made for Wolfy, the best rabbit ever. R.I.P Wolfy :(
+This site is made for Wolfy, the only rabbit that can grow a christmas tree.
+
