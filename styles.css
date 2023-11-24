@@ -116,17 +116,56 @@ ul {
     flex: 1;
     display: flex;
     justify-content: center;
+    gap: 20px;
     color: black;
 }
 
 .square {
-    width: 100px;
-    height: 100px;
+    width: 200px;
+    height: 200px;
     border: 2px solid blue;
     border-radius: 10px;
     overflow: hidden;
     position: relative;
     margin: auto;
+}
+
+.image-square1 {
+    width: 100%;
+    height: 100%;
+    background-image: url('./images/wolfy4.png'); /* Remplacez par le chemin de votre image */
+    background-size: cover; /* Ajuste l'image pour couvrir entièrement la bordure sans changer son périmètre */
+    background-position: center; /* Centre l'image dans la bordure */
+    background-repeat: no-repeat; /* Empêche la répétition de l'image */
+}
+
+.image-square2 {
+    width: 100%;
+    height: 100%;
+    background-image: url('./images/wolfy3.png'); /* Remplacez par le chemin de votre image */
+    background-size: cover; /* Ajuste l'image pour couvrir entièrement la bordure sans changer son périmètre */
+    background-position: center; /* Centre l'image dans la bordure */
+    background-repeat: no-repeat; /* Empêche la répétition de l'image */
+}
+
+
+.image-square3 {
+    width: 100%;
+    height: 100%;
+    background-image: url('./images/wolfy2.png'); /* Remplacez par le chemin de votre image */
+    background-size: cover; /* Ajuste l'image pour couvrir entièrement la bordure sans changer son périmètre */
+    background-position: center; /* Centre l'image dans la bordure */
+    background-repeat: no-repeat; /* Empêche la répétition de l'image */
+}
+
+
+.image-square4 {
+    width: 100%;
+    height: 100%;
+    background-image: url('./images/wolfy5.png'); /* Remplacez par le chemin de votre image */
+    background-size: cover; /* Ajuste l'image pour couvrir entièrement la bordure sans changer son périmètre */
+    background-position: center; /* Centre l'image dans la bordure */
+    background-repeat: no-repeat; /* Empêche la répétition de l'image */
 }
 
 .text-square {
