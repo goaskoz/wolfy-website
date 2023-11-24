@@ -26,6 +26,15 @@ body {
     justify-content: center;
 }
 
+.left-header {
+    margin-left: 2rem;
+}
+
+.right-header {
+    margin-top: 2rem;
+    margin-right: 4rem;
+}
+
 a {
     text-decoration: none;
     color: white;
@@ -133,7 +142,7 @@ ul {
 .image-square1 {
     width: 100%;
     height: 100%;
-    background-image: url('./images/wolfy4.png'); /* Remplacez par le chemin de votre image */
+    background-image: url('images/wolfy4.png'); /* Remplacez par le chemin de votre image */
     background-size: cover; /* Ajuste l'image pour couvrir entièrement la bordure sans changer son périmètre */
     background-position: center; /* Centre l'image dans la bordure */
     background-repeat: no-repeat; /* Empêche la répétition de l'image */
@@ -142,7 +151,7 @@ ul {
 .image-square2 {
     width: 100%;
     height: 100%;
-    background-image: url('./images/wolfy3.png'); /* Remplacez par le chemin de votre image */
+    background-image: url('images/wolfy3.png'); /* Remplacez par le chemin de votre image */
     background-size: cover; /* Ajuste l'image pour couvrir entièrement la bordure sans changer son périmètre */
     background-position: center; /* Centre l'image dans la bordure */
     background-repeat: no-repeat; /* Empêche la répétition de l'image */
@@ -152,7 +161,7 @@ ul {
 .image-square3 {
     width: 100%;
     height: 100%;
-    background-image: url('./images/wolfy2.png'); /* Remplacez par le chemin de votre image */
+    background-image: url('images/wolfy2.png'); /* Remplacez par le chemin de votre image */
     background-size: cover; /* Ajuste l'image pour couvrir entièrement la bordure sans changer son périmètre */
     background-position: center; /* Centre l'image dans la bordure */
     background-repeat: no-repeat; /* Empêche la répétition de l'image */
@@ -162,14 +171,20 @@ ul {
 .image-square4 {
     width: 100%;
     height: 100%;
-    background-image: url('./images/wolfy5.png'); /* Remplacez par le chemin de votre image */
+    background-image: url('images/wolfy5.png'); /* Remplacez par le chemin de votre image */
     background-size: cover; /* Ajuste l'image pour couvrir entièrement la bordure sans changer son périmètre */
     background-position: center; /* Centre l'image dans la bordure */
     background-repeat: no-repeat; /* Empêche la répétition de l'image */
 }
 
-.text-square {
+.text-square,
+.text-square2 {
     padding-top: 1rem;
+}
+
+.text-square2 {
+    font-style: italic;
+    font-size: small;
 }
 
 /* 3e content */
@@ -192,8 +207,8 @@ ul {
 }
 
 .name-quote {
-    margin-top: 0.5rem;
-    margin-left: 475px;
+    margin-top: 1.5rem;
+    margin-left: 200px;
     font-size: 25px;
     font-weight: 900;
 }
@@ -244,8 +259,8 @@ ul {
 .button-content-rect {
     color: white;
     border: 1px solid white;
-    width: 110px;
-    height: 30px;
+    width: 130px;
+    height: 35px;
     border-radius: 7px;
     overflow: hidden;
     display: flex;
